@@ -20,7 +20,8 @@ logging:
   level:
     com:
       jinhan:
-        mapper: debug
+        genminiuserservice:
+          mapper: debug
 server:
   port: 8501
 
