@@ -21,4 +21,6 @@ logging:
     com:
       jinhan:
         mapper: debug
+server:
+  port: 8501
 
