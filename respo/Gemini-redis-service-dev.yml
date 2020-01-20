@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: gemini-redis-service
+  redis:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+    sentinel:
+      master: mymaster
+      nodes: 129.204.128.62:26379, 129.204.128.62:26380, 129.204.128.62:26381
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8601
+
+
+

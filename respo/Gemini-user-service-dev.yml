@@ -21,7 +21,4 @@ server:
 
 logging:
   level:
-    com:
-      jinhan:
-        genminiuserservice:
-          mapper: debug
+    com: debug
